@@ -9,3 +9,4 @@ echo "Hello World" >> hello.txt
 touch empty.txt
 rm empty.txt
 echo -n > empty.txt
+cat > empty.txt
