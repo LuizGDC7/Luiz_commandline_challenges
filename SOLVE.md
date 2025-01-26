@@ -11,3 +11,5 @@ rm empty.txt
 echo -n > empty.txt
 cat > empty.txt
 cp hello.txt goodbye.txt
+mv goodbye.txt hello_copy.txt
+diff hello.txt hello_copy.txt
