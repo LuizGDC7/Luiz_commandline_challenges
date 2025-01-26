@@ -10,3 +10,4 @@ touch empty.txt
 rm empty.txt
 echo -n > empty.txt
 cat > empty.txt
+cp hello.txt goodbye.txt
