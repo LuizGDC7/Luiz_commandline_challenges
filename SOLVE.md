@@ -17,3 +17,4 @@ cat hello.txt hello_copy.txt > 2_hellos.txt
 pwd
 ls -l
 chmod 777 restricted.txt, echo "Meu nome é Luiz" > restricted.txt
+./hello_executable
