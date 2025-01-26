@@ -4,3 +4,4 @@ ls
 mkdir foo
 mkdir -p foo/bar/1/2/3
 rm -rf foo
+echo "Hello World"
