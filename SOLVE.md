@@ -18,3 +18,4 @@ pwd
 ls -l
 chmod 777 restricted.txt, echo "Meu nome é Luiz" > restricted.txt
 ./hello_executable
+chmod 777 challenge_20, ./challenge_20
