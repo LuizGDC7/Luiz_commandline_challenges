@@ -8,3 +8,4 @@ echo "Hello World"
 echo "Hello World" >> hello.txt
 touch empty.txt
 rm empty.txt
+echo -n > empty.txt
