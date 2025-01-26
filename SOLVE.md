@@ -7,3 +7,4 @@ rm -rf foo
 echo "Hello World"
 echo "Hello World" >> hello.txt
 touch empty.txt
+rm empty.txt
