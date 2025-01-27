@@ -30,3 +30,4 @@ head -25 people.csv
 tail -25 people.csv
 diff greeting1.txt greeting2.txt -U0
 echo "Hello" && sleep 5 && echo "World"
+head -c 2000000 /dev/urandom > random.txt
