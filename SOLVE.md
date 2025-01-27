@@ -22,3 +22,4 @@ chmod 777 challenge_20, ./challenge_20
 gcc compile_me.c -o compile_me && ./compile_me
 ./redirect &> output.txt
 date
+nproc
