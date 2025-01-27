@@ -23,3 +23,4 @@ gcc compile_me.c -o compile_me && ./compile_me
 ./redirect &> output.txt
 date
 top
+nproc
