@@ -24,3 +24,4 @@ gcc compile_me.c -o compile_me && ./compile_me
 date
 top
 nproc
+uname -r
