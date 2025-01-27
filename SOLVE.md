@@ -28,3 +28,4 @@ uname -r
 grep -r "You found the needle in the haystack" bunch_of_files
 head -25 people.csv
 tail -25 people.csv
+diff greeting1.txt greeting2.txt -U0 
