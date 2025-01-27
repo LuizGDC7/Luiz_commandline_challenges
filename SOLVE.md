@@ -30,3 +30,4 @@ head -25 people.csv
 tail -25 people.csv
 diff greeting1.txt greeting2.txt -U0
 echo "Hello" && sleep 5 && echo "World"
+printf '0%.0s' {1..1000000} > zero.txt
