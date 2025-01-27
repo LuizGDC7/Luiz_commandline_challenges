@@ -25,3 +25,4 @@ date
 top
 nproc
 uname -r
+grep -r "You found the needle in the haystack" bunch_of_files
