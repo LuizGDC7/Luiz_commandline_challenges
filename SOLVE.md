@@ -26,3 +26,4 @@ top
 nproc
 uname -r
 grep -r "You found the needle in the haystack" bunch_of_files
+head -25 people.csv
