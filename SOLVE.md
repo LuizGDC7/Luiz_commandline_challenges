@@ -21,3 +21,4 @@ chmod 777 restricted.txt, echo "Meu nome é Luiz" > restricted.txt
 chmod 777 challenge_20, ./challenge_20
 gcc compile_me.c -o compile_me && ./compile_me
 ./redirect &> output.txt
+date
