@@ -44,3 +44,4 @@ cut -d ',' -f 4 people.csv | grep Josiah | wc -l
 find challenges -type f | wc -l
 find challenges -type d | wc -l
 find . -name '*deleteme*' -delete
+sed -i 's/You found the needle in the haystack!/The needle has been removed./' bunch_of_files/file719.rand
