@@ -41,3 +41,4 @@ tail -n +2 people.csv | cut -d ',' -f 2 people.csv | sort | uniq | wc -l Porém 
 time tail -n +2 people.csv | cut -d ',' -f 2 | sort | uniq | wc -l
 time awk -F ',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 cut -d ',' -f 4 people.csv | grep Josiah | wc -l
+find challenges -type f | wc -l
