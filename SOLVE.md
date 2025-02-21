@@ -36,3 +36,4 @@ wc -l README.txt
 tac README.txt
 cut -d ',' -f 2 people.csv
 cut -d ',' -f 2 people.csv | sort | uniq | wc -l
+Sim, contei
