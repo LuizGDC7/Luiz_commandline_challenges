@@ -38,3 +38,5 @@ cut -d ',' -f 2 people.csv
 cut -d ',' -f 2 people.csv | sort | uniq | wc -l
 Sim, contei
 tail -n +2 people.csv | cut -d ',' -f 2 people.csv | sort | uniq | wc -l Porém awk -F ',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l também funciona
+time tail -n +2 people.csv | cut -d ',' -f 2 | sort | uniq | wc -l
+time awk -F ',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
