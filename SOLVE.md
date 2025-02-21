@@ -33,3 +33,4 @@ echo "Hello" && sleep 5 && echo "World"
 printf '0%.0s' {1..1000000} > zero.txt
 head -c 2000000 /dev/urandom > random.txt
 wc -l README.txt
+tac README.txt
